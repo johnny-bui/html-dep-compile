@@ -1,0 +1,27 @@
+{
+  "name": "html-dep-compile",
+  "version": "0.0.1",
+  "keywords": [
+    "util"
+  ],
+  "author": "Johnny Bui",
+  "contributors": [],
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "html-dep-grep": "0.0.5",
+    "mkdirp": "^0.5.1"
+  },
+  "bin": {
+    "html-dep-compile": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "test:cover": "istanbul cover _mocha",
+    "doc": "jsdoc *.js --destination gen-doc"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
