@@ -6,6 +6,8 @@
   ],
   "author": "Johnny Bui",
   "contributors": [],
+	"repository", "https://github.com/johnny-bui/html-dep-compile",
+	"license": "MIT",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.23.1",
